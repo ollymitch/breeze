@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def advice():
-    return "Don't cycle in between two red buses!"
+    return "Don't cycle in between two red buses, and remember to charge your lights."
 
 print('damn')
 if __name__ == 'main':
