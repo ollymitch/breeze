@@ -8,7 +8,7 @@ def advice():
 print('damn')
 if __name__ == 'main':
     print('ayo')
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='localhost')
 
 
-app.run(debug=True, host='0.0.0.0', port=8080)
+app.run(debug=True, host='localhost', port=8080)
